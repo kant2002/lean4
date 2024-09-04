@@ -1381,6 +1381,7 @@ gen_injective_theorems% Except
 gen_injective_theorems% EStateM.Result
 gen_injective_theorems% Lean.Name
 gen_injective_theorems% Lean.Syntax
+gen_injective_theorems% BitVec
 
 /-- Replacement for `Array.mk.injEq`; we avoid mentioning the constructor and prefer `List.toArray`. -/
 abbrev List.toArray_inj := @Array.mk.injEq
